@@ -1,6 +1,7 @@
 *.pdb
 *.sig
 *.swp
+/.vs/
 /ReleaseNotes.html
 edit-git-bash.exe
 /cached-source-packages/
@@ -13,7 +14,9 @@ edit-git-bash.exe
 /git-for-windows-keyring/git-for-windows-keyring-*.src.tar.gz
 /installer/InnoSetup/Examples/
 /installer/InnoSetup/Compil32.exe
+/installer/InnoSetup/ISIDE.exe
 /installer/InnoSetup/isscint.dll
+/installer/InnoSetup/isscint-x64.dll
 /installer/ReleaseNotes.html
 /installer/config.iss
 /installer/install.log
@@ -50,8 +53,9 @@ edit-git-bash.exe
 /portable/root/bin/
 /portable/root/cmd/
 /portable/root/etc/
+/portable/root/clangarm64/
 /portable/root/mingw32/
-/portable/root/mingw64/
+/portable/root/ucrt64/
 /portable/root/post-install.bat
 /sdk-installer/root/
 /source-zips/
